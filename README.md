@@ -1,5 +1,7 @@
 # 05.Carta Tunning
 
+![Captura del proyecto](./src/Screenshot.png)
+
 Este es la quinta practica realizada en el BootCamp de TheBridge.
 
 ## Objetivo
