@@ -39,6 +39,9 @@ body {
     width: min(65rem, 80vw);
 }
 
+
+/* GENERALES */
+
 h1,
 h2,
 h3,
@@ -46,17 +49,50 @@ h4,
 h5,
 h6,
 b {
-    font-size: var(--lsize);
     font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: var(--xlsize);
+}
+
+h2 {
+    margin-top: 3rem;
 }
 
 b {
     font-weight: 700;
+    font-size: var(--lsize);
 }
 
 sub,
 sup {
     font-size: var(--ssize);
+}
+
+p::first-letter,
+li::first-letter {
+    font-size: var(--xlsize);
+}
+
+li,
+blockquote {
+    margin-left: 5rem;
+}
+
+blockquote::after,
+blockquote::before {
+    content: " '' ";
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
 }
 
 
@@ -67,24 +103,24 @@ header {
     margin-bottom: 1rem;
 }
 
-li {
-    margin-left: 5rem;
-}
-
-p::first-letter,
-li::first-letter {
-    font-size: var(--xlsize);
-}
-
-a {
-    color: rgb(0, 0, 0);
-    font-weight: 700;
+.date {
+    margin-top: 1.5rem;
 }
 
 .date--big {
     font-size: var(--xlsize);
 }
 
+
+/* ADDRESS */
+
+.direccion {
+    margin-bottom: 3rem;
+}
+
+
+/* FOOTER */
+
 footer {
-    margin-top: 7rem;
+    margin-top: 3rem;
 }
