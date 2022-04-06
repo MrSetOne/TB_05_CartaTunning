@@ -1,0 +1,74 @@
+/* Variables */
+
+:root {
+    --ssize: 1rem;
+    --msize: 1.6rem;
+    --lsize: 2rem;
+}
+
+
+/* GLOBALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: var(--msize);
+    font-weight: 100;
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.6;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 4rem auto;
+    background-color: antiquewhite;
+    width: min(78rem, 80vw);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
+    font-size: var(--lsize);
+    font-weight: 700;
+}
+
+b {
+    font-weight: 700;
+}
+
+sub,
+sup {
+    font-size: var(--ssize);
+}
+
+
+/* HEADER */
+
+header {
+    text-align: end;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-left: 5rem;
+}
+
+footer {
+    margin-top: 7rem;
+}
